@@ -1,0 +1,13 @@
+@import "custom";
+
+section {
+  margin-top: 20vh;
+
+  .container {
+    width: 50%;
+  }
+
+  .bg-login {
+    background-color: $warnaSecondary;
+  }
+}
