@@ -1,10 +1,9 @@
-$(".page-scroll").on("click", function (e) {
-  let href = $(this).attr("href");
-  $("html").animate(
-    {
-      scrollTop: $(href).offset().top - 65,
-    },
-    800
-  );
-  e.preventDefault;
+let toTop = document.querySelector(".scrollTop");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 150) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
 });
