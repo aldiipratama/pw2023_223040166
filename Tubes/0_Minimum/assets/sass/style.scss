@@ -118,36 +118,6 @@ nav {
       color: $bg-color;
     }
   }
-  form {
-    .field {
-      position: relative;
-      margin-bottom: 15px;
-
-      label {
-        cursor: pointer;
-
-        &:hover {
-          color: $bg-color;
-        }
-      }
-      input {
-        padding: 5px;
-        transition: 0.5s;
-        -webkit-transition: 0.5s;
-        -moz-transition: 0.5s;
-        -ms-transition: 0.5s;
-        -o-transition: 0.5s;
-
-        &:hover {
-          border-color: $bg-color !important;
-        }
-
-        &:focus {
-          border-color: $bg-color !important;
-        }
-      }
-    }
-  }
 }
 
 .jumbotron {
@@ -239,8 +209,8 @@ nav {
 }
 
 #rating {
+  height: 80vh;
   .row {
-    height: 80vh;
     background-image: url(../img/bg3.jpg);
     background-size: cover;
     background-attachment: fixed;
